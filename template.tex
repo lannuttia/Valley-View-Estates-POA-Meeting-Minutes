@@ -1,0 +1,36 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+
+\author{Anthony Lannutti}
+\date{February 17, 2025}
+\makeatletter
+\newcommand{\@position}{}
+\newcommand{\position}[1]{\renewcommand{\@position}{#1}}
+\title{Meeting Minutes}
+\position{Secretary}
+
+\AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{images/brand.png}}}%
+}
+
+\begin{document}
+
+\section*{Call to Order}
+\begin{itemize}
+\item Example item
+\end{itemize}
+
+\section*{Reports}
+\begin{itemize}
+\item Example item
+\end{itemize}
+
+\section*{New Business}
+\begin{itemize}
+\item Example item
+\end{itemize}
+
+\end{document}
