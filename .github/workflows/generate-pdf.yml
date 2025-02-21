@@ -30,6 +30,7 @@ jobs:
         with:
           root_file: |
             template.tex
+            *-meeting-minutes.tex
 
       - name: Upload Meeting Minute Artifacts
         uses: actions/upload-artifact@v4.4.3
