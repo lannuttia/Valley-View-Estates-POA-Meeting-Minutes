@@ -1,0 +1,58 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+
+\author{Anthony Lannutti}
+\date{February 17, 2025}
+\makeatletter
+\newcommand{\@position}{}
+\newcommand{\position}[1]{\renewcommand{\@position}{#1}}
+\title{Meeting Minutes}
+\position{Secretary}
+
+\AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{images/brand.png}}}%
+}
+
+\begin{document}
+
+\section*{Call to Order}
+\begin{flushleft}
+The meeting was called to order on April 3rd, 2025 at 6:30 PM\@.
+\end{flushleft}
+
+
+\section*{Reports}
+\begin{itemize}
+  \item \textbf{President's Report}
+  \begin{itemize}
+  \item \textbf{Goals}
+    \begin{itemize}
+    \item Replace landscape lighting at Valley View Estates entrances
+    \item Add Valley View Estates sign to the entrance
+    \item Replace windows for the guard shack
+    \end{itemize}
+  \item Discussed community garage sales
+  \item The covenant updates did not pass
+  \item Discussed fee increase for trash can violations from \$25 to \$50
+  \item Discussed bylaws pertaining to lawn care and parking
+  \end{itemize}
+  \item \textbf{Treasurer \& Bookkeeping Report}
+  \begin{itemize}
+  \item Year to date \$47,431 in income
+  \item Year to date \$12,247 in expenses
+  \item Year to date \$35,184 in profit
+  \item Year to date \$39,317 in unpaid invoices
+  \item Year to date \$68,485 in the Arvest bank account
+  \end{itemize}
+\end{itemize}
+
+\begin{flushleft}
+Meeting notes submitted by:\break{}
+\@author\break{}
+Valley View Estates POA Secretary
+\end{flushleft}
+
+\end{document}
