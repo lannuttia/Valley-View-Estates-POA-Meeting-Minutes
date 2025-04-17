@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+
+\author{Anthony Lannutti}
+\date{February 17, 2025}
+\makeatletter
+\newcommand{\@position}{}
+\newcommand{\position}[1]{\renewcommand{\@position}{#1}}
+\title{Meeting Minutes}
+\position{Secretary}
+
+\AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{images/brand.png}}}%
+}
+
+\begin{document}
+
+\begin{center}
+  Valley View Estates Property Owners Associated Board of Directors Meeting Notes\break{}
+  \@date{}
+\end{center}
+
+\section*{Call to Order}
+\begin{flushleft}
+The meeting was called to order on \@date{} at 6:30 PM\@.
+\end{flushleft}
+
+
+\section*{Reports}
+\begin{itemize}
+  \item \textbf{President's Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Treasurer \& Bookkeeping Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Compliance Coordinator Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Architectural Review Committee Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Social Committee Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Landscaping Committee Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Government Affairs Committee Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+\end{itemize}
+
+\section*{New Business}
+\begin{itemize}
+  \item None
+\end{itemize}
+
+\begin{flushleft}
+Meeting notes submitted by:\break{}
+\@author\break{}
+Valley View Estates POA Secretary
+\end{flushleft}
+
+\end{document}
