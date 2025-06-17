@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+
+\author{Anthony Lannutti}
+\date{May 15, 2025}
+\makeatletter
+\newcommand{\@position}{}
+\newcommand{\position}[1]{\renewcommand{\@position}{#1}}
+\title{Meeting Minutes}
+\position{Secretary}
+
+\AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{images/brand.png}}}%
+}
+
+\pagenumbering{gobble}
+\begin{document}
+
+\begin{center}
+  Valley View Estates Property Owners Associated Board of Directors Meeting Notes\break{}
+  \@date{}
+\end{center}
+
+\section*{Call to Order}
+\begin{flushleft}
+The meeting was called to order on \@date{} at 6:30 PM\@.
+\end{flushleft}
+
+
+\section*{Reports}
+\begin{itemize}
+  \item \textbf{President's Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Treasurer \& Bookkeeping Report}
+  \begin{itemize}
+    \item Checking account balance of \$69,583.96 as of April 30th, 2025.
+  \end{itemize}
+  \item \textbf{Compliance Coordinator Report}
+  \begin{itemize}
+    \item Discussed issues with dogs running loose.
+    \item Discussed issues with high grass.
+    \item Discussed issues with noncompliant mailboxes.
+  \end{itemize}
+  \item \textbf{Architectural Review Committee Report}
+  \begin{itemize}
+    \item Discussed sheds that have been approved
+  \end{itemize}
+  \item \textbf{Social Committee Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+  \item \textbf{Landscaping Committee Report}
+  \begin{itemize}
+    \item Landscaping was done at Highway 170 and Highway 160.
+    \item Clean up and tree removal was done by gazebo.
+  \end{itemize}
+  \item \textbf{Government Affairs Committee Report}
+  \begin{itemize}
+    \item None
+  \end{itemize}
+\end{itemize}
+
+\section*{New Business}
+\begin{itemize}
+  \item Mailbox compliance issues
+  \item New Windows for the guard shack
+  \item Remaining trees are being trimmed by SWEPCO around the gazebo
+  \item Back flow devices at Highway 62
+  \item Stump grinding trimming on Burr Oak by gazebo.
+  \item Getting estimates for power washing and painting gazebo.
+  \item Getting estimates for center islands.
+\end{itemize}
+
+\begin{flushleft}
+Meeting notes submitted by:\break{}
+\@author\break{}
+Valley View Estates POA Secretary
+\end{flushleft}
+
+\end{document}
