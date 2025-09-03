@@ -1,0 +1,107 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+}
+
+\author{Anthony Lannutti}
+\date{August 21, 2025}
+\makeatletter
+\newcommand{\@position}{}
+\newcommand{\position}[1]{\renewcommand{\@position}{#1}}
+\title{Meeting Minutes}
+\position{Secretary}
+
+\AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{images/brand.png}}}%
+}
+
+\pagenumbering{gobble}
+\begin{document}
+
+\begin{center}
+  Valley View Estates POA Annual Summer Meeting Notes\break{}
+  \@date{}
+\end{center}
+
+\section*{Board Attendance}
+\begin{itemize}
+  \item Melissa Braddy (2025 President)
+  \item Guy Smith (2025 Vice President)
+  \item Dominic Lannutti (2025 Treasurer)
+  \item Anthony Lannutti (2025 Secretary)
+\end{itemize}
+
+\section*{Call to Order}
+\begin{flushleft}
+The meeting was called to order on \@date{} at 6:30 PM\@.
+\end{flushleft}
+
+
+\section*{POA Board Update}
+\begin{itemize}
+  \item \textbf{POA Board Progress in 2025}
+  \begin{itemize}
+    \item A detailed review of the work that has been done can be seen in the in-person \href{https://www.example.com}{meeting slides}.
+    \item New uplighting at Highway 170 and Highway 62.
+    \item Trim \& remove trees at Highway 170 Gazebo
+    \item Purchased new backflow devices
+    \item Installed new vinyl windows for guard tower
+    \item Gazebo remodeling in progress
+    \item Proposed new street signs and restoration of street poles
+    \item Proposed entrance sign for Giles \& Iron
+    \item Bollard light repairs
+  \end{itemize}
+  \item \textbf{POA Financial Update}
+  \begin{itemize}
+    \item Dominic Lannutti walked through the POA financials for 2025.
+    \item The POA posted a \$21,900.40 net profit 
+    \item Our cash position remains strong with \$172,349.25 in combined assets. This is approximately \$22,000 ahead of where we stood in January 2025
+  \end{itemize}
+  \item \textbf{Committee Updates \& Volunteer Opportunities}
+  \begin{itemize}
+    \item Guy Smith covered what is required in order to make changes to the bylaws and challenges associated with the bylaws as they exist today
+    \item \textbf{Architectural Review Committee}
+    \begin{itemize}
+      \item Discussed what common structures are allowed without ARC approval, with ARC approval, or are not allowed
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\section*{Property Owner Feedback and Questions}
+\begin{itemize}
+  \item \textit{What is being done about the median?}
+    \begin{itemize}
+      \item Melissa - Discussed the possibility of adding drought tolerant landscaping.
+    \end{itemize}
+  \item \textit{Why are we down \$13,000 in income from last year?}
+    \begin{itemize}
+      \item Courtney - The difference is due to the fact that the POA has payments owed to it such as liens and dues.
+        Last year, a concerted effort was made to collect on delinquent dues.
+    \end{itemize}
+  \item \textit{Are we going to start adding the date of the covenant violation to the violation letters?}
+    \begin{itemize}
+      \item Melissa - We will start doing that
+    \end{itemize}
+  \item \textit{Why is the water bill so high?}
+    \begin{itemize}
+      \item Hal - We are paying on a \$5,000,000 loan that was required to get our sewage to Prairie Grove.
+    \end{itemize}
+  \item \textit{What are we planning to use for the gazebo for?}
+    \begin{itemize}
+      \item Melissa - We intend to make it available for the community to use.
+    \end{itemize}
+\end{itemize}
+
+\begin{flushleft}
+Meeting notes submitted by:\break{}
+\@author\break{}
+Valley View Estates POA Secretary
+\end{flushleft}
+
+\end{document}
