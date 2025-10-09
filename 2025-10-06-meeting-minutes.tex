@@ -1,0 +1,86 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+
+\author{Anthony Lannutti}
+\date{September 15th, 2025}
+\makeatletter
+\newcommand{\@position}{}
+\newcommand{\position}[1]{\renewcommand{\@position}{#1}}
+\title{Meeting Minutes}
+\position{Secretary}
+
+\AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{images/brand.png}}}%
+}
+
+\pagenumbering{gobble}
+\begin{document}
+
+\begin{center}
+  Valley View Estates Property Owners Associated Board of Directors
+  Meeting Notes\break{}
+  \@date{}
+\end{center}
+
+\section*{Call to Order}
+\begin{flushleft}
+  The meeting was called to order on \@date{} at 6:30 PM\@.
+\end{flushleft}
+
+\section*{Reports}
+\begin{itemize}
+  \item \textbf{President's Report}
+    \begin{itemize}
+      \item Cost to fix bollard lights is roughly \$40,000. Material
+        cost to replace with bollard lights with solar lights is
+        roughly \$13,000.
+      \item Two test solar powered bollard lights have been installed
+        in island one on the corner of Richardson and Clubhouse.
+    \end{itemize}
+  \item \textbf{Treasurer \& Bookkeeping Report}
+    \begin{itemize}
+      \item Arvest balance on August 1st was \$55,483.85
+      \item Arvest balance on August 31st was \$49,337.89
+    \end{itemize}
+  \item \textbf{Compliance Coordinator Report}
+    \begin{itemize}
+      \item None
+    \end{itemize}
+  \item \textbf{Architectural Review Committee Report}
+    \begin{itemize}
+      \item One shed was approved
+    \end{itemize}
+  \item \textbf{Social Committee Report}
+    \begin{itemize}
+      \item Posted garage sale on Facebook group. This will be sent
+        in an email newsletter.
+      \item Posted Farmington fall cleanup on Facebook. This will be
+        sent in an email newsletter.
+      \item An email newsletter will be sent informing residents of
+        the upcoming events.
+    \end{itemize}
+  \item \textbf{Landscaping Committee Report}
+    \begin{itemize}
+      \item None
+    \end{itemize}
+  \item \textbf{Government Affairs Committee Report}
+    \begin{itemize}
+      \item None
+    \end{itemize}
+\end{itemize}
+
+\section*{New Business}
+\begin{itemize}
+  \item Seven out of sixteen mailboxes have been brought into compliance.
+\end{itemize}
+
+\begin{flushleft}
+  Meeting notes submitted by:\break{}
+  \@author\break{}
+  Valley View Estates POA Secretary
+\end{flushleft}
+
+\end{document}
