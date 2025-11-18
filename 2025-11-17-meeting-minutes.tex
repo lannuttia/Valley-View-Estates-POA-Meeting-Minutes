@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+
+\author{Anthony Lannutti}
+\date{November 17th, 2025}
+\makeatletter
+\newcommand{\@position}{}
+\newcommand{\position}[1]{\renewcommand{\@position}{#1}}
+\title{Meeting Minutes}
+\position{Secretary}
+
+\AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{images/brand.png}}}%
+}
+
+\pagenumbering{gobble}
+\begin{document}
+
+\begin{center}
+  Valley View Estates Property Owners Associated Board of Directors
+  Meeting Notes\break{}
+  \@date{}
+\end{center}
+
+\section*{Call to Order}
+\begin{flushleft}
+  The meeting was called to order on \@date{} at 6:30 PM\@.
+\end{flushleft}
+
+\section*{Reports}
+\begin{itemize}
+  \item \textbf{President's Report}
+    \begin{itemize}
+      \item Christmas lights and tree have been put up
+    \end{itemize}
+  \item \textbf{Treasurer \& Bookkeeping Report}
+    \begin{itemize}
+      \item Arvest balance today: \$30,245.74
+      \item Arvest balance on October 1st: \$40,347.39
+      \item Arvest balance on October 31st: \$32,104.48
+    \end{itemize}
+  \item \textbf{Compliance Coordinator Report}
+    \begin{itemize}
+      \item None
+    \end{itemize}
+  \item \textbf{Architectural Review Committee Report}
+    \begin{itemize}
+      \item Requests for approval of two sheds has been received
+    \end{itemize}
+  \item \textbf{Social Committee Report}
+    \begin{itemize}
+      \item None
+    \end{itemize}
+  \item \textbf{Landscaping Committee Report}
+    \begin{itemize}
+      \item Chistmas lights are installed and working.
+      \item Landscaping cleanup
+      \item Backflow devices have been winterized
+      \item The board voted for and approve to replace the bollard
+        lights. Material cost is \$8400 and installation cost is \$1700.
+    \end{itemize}
+  \item \textbf{Government Affairs Committee Report}
+    \begin{itemize}
+      \item None
+    \end{itemize}
+\end{itemize}
+
+\section*{New Business}
+\begin{itemize}
+  \item One more mailbox has been completed
+  \item Bollard light repair and installation
+  \item Free community library
+  \item Discuss January 2026 annual meeting agenda and board nominations
+\end{itemize}
+
+\begin{flushleft}
+  Meeting notes submitted by:\break{}
+  \@author\break{}
+  Valley View Estates POA Secretary
+\end{flushleft}
+
+\end{document}
